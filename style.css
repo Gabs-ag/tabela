@@ -1,0 +1,114 @@
+main {
+    width: 1165px;
+    background-color: white;
+    margin: 50px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(18, 60px);
+    grid-template-rows: repeat(10, 60px);
+}
+
+main>div {
+    background-color:#5f0a5f	;
+    border-radius: 4px;
+}
+
+
+header{
+    Text-align: center
+}
+main > div > h2{
+    margin:0;
+    text-align: center;
+}
+
+main > div> span{
+    font-size: 15px;
+    display: block;
+
+    padding: 3px;
+}
+
+    main > div:nth-child(2){
+        grid-column-start: 18;
+    }
+
+    main > div:nth-child(5){
+        grid-column: 13;
+    }
+
+    main > div:nth-child(13){
+        grid-column: 13;
+    }
+
+    main > div:nth-child(91){
+        grid-column: 13;
+    }
+
+body {
+    background-color:white;
+    font-family: Roboto;
+
+}
+
+header{
+    font-size: 100px;
+    background-color: hsl(313, 100%, 80%);
+    padding:1em;
+    margin: 50px auto;
+    width: 1165px;
+}
+
+.nao-metal{
+	color:var(--nao-metal);
+}
+	
+.gas-nobre{
+	color:var(--gas-nobre);
+}
+
+.metal-alcalino{
+	color:var(--metal-alcalino);
+}
+	
+.metal-alcalino-terroso{
+	color:var(--metal-alcalino-terroso);
+}
+	
+.semimetal{
+	color:var(--semimetal);
+}
+	
+.halogenio{
+	color:var(--halogenio);
+}
+	
+.outros-metais{
+	color:var(--outros-metais);
+}
+	
+.metal-transicao{
+	color:var(--metal-transicao);
+}
+	
+.lantanideo{
+	color:var(--lantanideo);
+}
+	
+.actinidio{
+	color:var(--actinidio);
+}
+
+:root{
+	--bg-preto:rgb(0,0,0);
+	--nao-metal:rgb(180,210,100);
+	--gas-nobre:rgb(100,180,225);
+	--metal-alcalino:rgb(245,200,100);
+	--metal-alcalino-terroso:rgb(240,230,90);
+	--semimetal:rgb(110,200,190);
+	--halogenio:rgb(170,225,255);
+	--outros-metais:rgb(190,210,210);
+	--metal-transicao:rgb(245,175,175);
+	--lantanideo:rgb(150,225,225);
+	--actinidio:rgb(230,190,220);
+}
