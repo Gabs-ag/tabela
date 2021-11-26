@@ -6,7 +6,9 @@ main {
     gap: 5px;
     grid-template-columns: repeat(18, 60px);
     grid-template-rows: repeat(10, 60px);
+    box-shadow: 0 0 10px  rgb(110, 110, 110);
 }
+
 
 main>div {
     background-color:#5f0a5f	;
@@ -17,6 +19,7 @@ main>div {
 header{
     Text-align: center
 }
+
 main > div > h2{
     margin:0;
     text-align: center;
@@ -100,7 +103,7 @@ header{
 }
 
 :root{
-	--bg-preto:rgb(0,0,0);
+	--bg-preto:rgb(231, 10, 10);
 	--nao-metal:rgb(180,210,100);
 	--gas-nobre:rgb(100,180,225);
 	--metal-alcalino:rgb(245,200,100);
