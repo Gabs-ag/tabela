@@ -15,7 +15,11 @@ main>div {
     border-radius: 4px;
 }
 
+.auxiliar{
+    display: grid;
+    grid-template-columns: repeat(15,60px);
 
+}
 header{
     Text-align: center
 }
@@ -32,19 +36,19 @@ main > div> span{
     padding: 3px;
 }
 
-    main > div:nth-child(2){
+    main.principal > div:nth-child(2){
         grid-column-start: 18;
     }
 
-    main > div:nth-child(5){
+    main.principal > div:nth-child(5){
         grid-column: 13;
     }
 
-    main > div:nth-child(13){
+    main.principal > div:nth-child(13){
         grid-column: 13;
     }
 
-    main > div:nth-child(91){
+    main.principal > div:nth-child(91){
         grid-column: 13;
     }
 
