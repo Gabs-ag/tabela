@@ -126,6 +126,9 @@ main>div:nth-child(57) {
     grid-column-start: 4;
     grid-row-start: 9;
 }
+main>div:hover{
+	background-color: #ccc;
+}
 
 main>div:nth-child(58) {
     grid-column-start: 5;
