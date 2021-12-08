@@ -1,3 +1,24 @@
+body {
+    background-color: rgb(248, 239, 239);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    font-size: 47px;
+    background-color: rgb(98, 236, 151);
+    color:rgb(0, 0, 0) ;
+    padding: 1em;
+    margin: 50px auto;
+    width: 1165px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+
 main {
     width: 1165px;
     background-color: white;
@@ -6,9 +27,13 @@ main {
     gap: 5px;
     grid-template-columns: repeat(18, 60px);
     grid-template-rows: repeat(10, 60px);
-    box-shadow: 0 0 10px rgb(110, 110, 110);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
+main>div:hover {
+    background-color: #ccc;
+    
+}
 
 main>div {
     border-radius: 4px;
@@ -26,85 +51,69 @@ main>div>span {
     padding: 3px;
 }
 
-main>div:nth-child(2) {
-    grid-column-start: 18;
-}
 
-main>div:nth-child(5) {
-    grid-column: 13;
-}
 
-main>div:nth-child(13) {
-    grid-column: 13;
-}
 
-main>div:nth-child(91) {
-    grid-column: 13;
-}
 
-body {
-    background-color: white;
-    font-family: Roboto;
-}
 
-header {
-    font-size: 47px;
-    background-color: hsl(313, 100%, 80%);
-    padding: 1em;
-    margin: 50px auto;
-    width: 1165px;
-    text-align: center;
-}
+
+
+
 
 .nao-metal {
     color: var(--nao-metal);
-    background-color: DarkKhaki;
+    background-color: MediumSpringGreen;
 }
 
 .gas-nobre {
     color: var(--gas-nobre);
-    background-color: Goldenrod;
+    background-color: SpringGreen;
 }
 
 .metal-alcalino {
     color: var(--metal-alcalino);
-    background-color: DarkGoldenrod;
+    background-color: PaleGreen;
 }
 
 .metal-alcalino-terroso {
     color: var(--metal-alcalino-terroso);
-    background-color: SaddleBrown;
+    background-color: LightGreen;
 }
 
 .semimetal {
     color: var(--semimetal);
-    background-color: Sienna;
+    background-color: DarkSeaGreen;
 }
 
 .halogenio {
     color: var(--halogenio);
-    background-color: RosyBrown;
+    background-color: MediumSeaGreen;
 }
 
 .outros-metais {
     color: var(--outros-metais);
-    background-color: Peru;
+    background-color: SeaGreen;
 }
 
 .metal-transicao {
     color: var(--metal-transicao);
-    background-color: Chocolate;
+    background-color: DarkGreen;
 }
 
 .lantanideo {
     color: var(--lantanideo);
-    background-color: SandyBrown;
+    background-color: Green;
 }
 
 .actinidio {
     color: var(--actinidio);
-    background-color: NavajoWhite;
+    background-color: ForestGreen;
 }
+
+
+
+
+
 
 /* 
 /* :root{
@@ -122,12 +131,42 @@ header {
  */
 
 
+
+
+
+
+
+ 
+main>div:nth-child(2) {
+    grid-column-start: 18;
+}
+
+main>div:nth-child(5) {
+    grid-column: 13;
+}
+
+main>div:nth-child(13) {
+    grid-column: 13;
+}
+
+main>div:nth-child(91) {
+    grid-column: 13;
+}
+
+main>div:nth-child(72) {
+    grid-column-start: 4;
+    /* grid-row-start: 9; */
+}
+
+main>div:nth-child(104) {
+    grid-column-start: 4;
+    /* grid-row-start: 9; */
+}
+
+
 main>div:nth-child(57) {
     grid-column-start: 4;
     grid-row-start: 9;
-}
-main>div:hover{
-	background-color: #ccc;
 }
 
 main>div:nth-child(58) {
