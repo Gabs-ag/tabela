@@ -26,19 +26,36 @@ main {
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(18, 60px);
-    grid-template-rows: repeat(10, 60px);
+    grid-template-rows: repeat(7, 60px) 30px repeat(2, 60px);
     box-shadow: 0 0 10px rgb(0, 0, 0);
+    position: relative;
+    padding: 20px;
 }
 
 main>div:hover {
-    background-color: #ccc;
-    
+    background-color: #333;
+    color: blanchedalmond;
 }
 
 main>div {
     border-radius: 4px;
 }
 
+main>div>article{
+    height: 130px;
+    width: 500px;
+    position: absolute;
+    background-color: rgb(106, 214, 73);
+    top: 40px;
+    left: 200px;
+    display: none;
+    padding: 10px;
+    color: black;
+}
+
+main>div:hover article{
+    display: block;
+}
 
 main>div>h2 {
     margin: 0;
@@ -97,17 +114,17 @@ main>div>span {
 
 .metal-transicao {
     color: var(--metal-transicao);
-    background-color: DarkGreen;
+    background-color: rgb(80, 168, 80);
 }
 
 .lantanideo {
     color: var(--lantanideo);
-    background-color: Green;
+    background-color: rgb(89, 219, 89);
 }
 
 .actinidio {
     color: var(--actinidio);
-    background-color: ForestGreen;
+    background-color: rgb(37, 240, 37);
 }
 
 
